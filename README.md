@@ -16,4 +16,16 @@ Hang on...
 
 ## <a name="todo"></a>Todo
 
+* 1 sec Timer
+
+* Active Window
+  * Class
+  * Title
+  * PID ?
+
+* Chrome Extension
+
+* Output XML
+  
+
 ## <a name="changelog"></a>Changelog
