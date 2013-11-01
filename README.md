@@ -1,31 +1,61 @@
 # Time Tracker v0.0
 
-A script to track your activities. Gain an insight of what you've been doing with your time.
+An application to track your activities. Gain an insight of what you've been doing with your time.
 
 ## Table of Contents
 
-* [Usage Instructions](#usage)
+<!-- * [Usage Scenario](#usage) -->
 * [Stuff to do](#todo)
+* [Flow of Control](#flow)
 * [Changelog](#changelog)
 
-## <a name="usage"></a>Usage Instructions
+## <a name="usage"></a>Dev Notes
 
-The script is being coded as you are reading this.
+The 'application' will actually consist of two parts: AHK + JS.
 
-Hang on...
+The core tracking part will be done via an AHK script that'll run silently in the background and will monitor the "Current Active Window" - it'll keep track of what's active right now and how much time has been spent on this particular application.
+
+While the Graphing and Data Analysis will be done using Javascript in the form of a webapp.
+
+The data will be dumped to an output file, periodically (say an hour). The output data can then be used to plot graphs (oh! those sexy graphs).
+
+The applications can be categorised, so you can know the time you've spent on "Development", "Entertainment", "Web Browsing".
+
+You can also create Whitelists - only some applications will be tracked as such and the rest will be added to category "Others". Or Blacklists - applications in this list will be ignored and added to "Others"
+
+The records will be saved on a per day basis, but they can later be converted to per month/year. (In JS)
+
+We'll have data like:
+  * Most Used Application
+  * Time spent per Application
+  * Time spent per Category
+
+* Algorithm
+  * On Start: Dump session start time
+  * Monitor 
+  * Dump Data
+  * Keep Monitor
+  * On End: Dump session end time
+
+Steal Ideas From:
+  * [Manic Time](www.manictime.com)
+  * [Rescue Time](www.rescuetime.com)
 
 ## <a name="todo"></a>Todo
 
-* 1 sec Timer
+* Presistent Timer
+  * 1 second (Variable?)
 
 * Active Window
+  * Title (Tabs of an app)
   * Class
-  * Title
-  * PID ?
+
+## <a name="later"></a>More Features
 
 * Chrome Extension
 
 * Output XML
-  
 
 ## <a name="changelog"></a>Changelog
+
+* 01/11/2013-17:19 - Readme Done.
