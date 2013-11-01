@@ -1,12 +1,14 @@
 # Time Tracker v0.0
 
+![Tracker](/data/Time.png)
+
 An application to track your activities. Gain an insight of what you've been doing with your time.
 
 ## Table of Contents
 
 <!-- * [Usage Scenario](#usage) -->
-* [Stuff to do](#todo)
-* [Flow of Control](#flow)
+* [Stuff To Do](#todo)
+* [More Features To Add Later](#later)
 * [Changelog](#changelog)
 
 ## <a name="usage"></a>Dev Notes
@@ -30,12 +32,12 @@ We'll have data like:
   * Time spent per Application
   * Time spent per Category
 
-* Algorithm
-  * On Start: Dump session start time
-  * Monitor 
-  * Dump Data
-  * Keep Monitor
-  * On End: Dump session end time
+Algorithm:
+  On Start: Dump session start time
+  Monitor 
+  Dump Data
+  Keep Monitor
+  On End: Dump session end time
 
 Steal Ideas From:
   * [Manic Time](www.manictime.com)
@@ -50,12 +52,11 @@ Steal Ideas From:
   * Title (Tabs of an app)
   * Class
 
-## <a name="later"></a>More Features
+## <a name="later"></a>More Features To Add Later
 
 * Chrome Extension
-
 * Output XML
 
 ## <a name="changelog"></a>Changelog
 
-* 01/11/2013-17:19 - Readme Done.
+* 01/11/2013-17:24 - Readme Done.
