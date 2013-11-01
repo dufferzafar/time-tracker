@@ -1,6 +1,6 @@
 # Time Tracker v0.0
 
-![Tracker](/data/Time.png)
+![Tracker](/Data/Time.png)
 
 An application to track your activities. Gain an insight of what you've been doing with your time.
 
@@ -33,11 +33,11 @@ We'll have data like:
   * Time spent per Category
 
 Algorithm:
-  On Start: Dump session start time
-  Monitor 
-  Dump Data
-  Keep Monitor
-  On End: Dump session end time
+  * On Start: Dump session start time
+  * Monitor 
+  * Dump Data
+  * Keep Monitor
+  * On End: Dump session end time
 
 Steal Ideas From:
   * [Manic Time](www.manictime.com)
