@@ -45,7 +45,7 @@ Steal Ideas From:
 
 ## <a name="todo"></a>Todo
 
-* Go off the record: pause tracking :)
+* Go off the record: Pause tracking.
 
 * Presistent Timer
   * 1 second (Variable?)
