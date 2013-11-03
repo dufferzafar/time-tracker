@@ -45,6 +45,8 @@ Steal Ideas From:
 
 ## <a name="todo"></a>Todo
 
+* Go off the record: pause tracking :)
+
 * Presistent Timer
   * 1 second (Variable?)
 
@@ -54,9 +56,11 @@ Steal Ideas From:
 
 ## <a name="later"></a>More Features To Add Later
 
-* Chrome Extension
 * Output XML
 
 ## <a name="changelog"></a>Changelog
 
-* 01/11/2013-17:24 - Readme Done.
+* Created a Google Chrome Extension to get URLs from the chrome's title bar.
+* Readme Done.
+
+<!-- Reset Chrome Time Tracker: 01/11/2013-21:32 -->
