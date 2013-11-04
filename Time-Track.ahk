@@ -40,6 +40,9 @@ GroupAdd, Explorer, ahk_class Progman
 Menu, Tray, NoStandard
 Menu, Tray, Tip, Time Tracker ; %Version%
 
+Menu, Tray, Add, &Suspend, SuspendMe
+Menu, Tray, Add, &Exit, CloseMe
+
 ; Set the icon if it exist
 IfExist, %A_ScriptDir%\Data\Time.ico
    Menu, Tray, Icon, %A_ScriptDir%\Data\Time.ico
@@ -63,7 +66,7 @@ activeTime := Object()
 SetTimer, WindowTally, % 3 * 1000
 
 ; Output Data every 15 minutes
-SetTimer, WindowTally, % 15 * 60 * 1000
+SetTimer, FlushToFile, % 15 * 60 * 1000
 
 Return
 
@@ -84,6 +87,7 @@ WindowTally:
    activeTime[title] += 3
 Return
 
+#o::
 FlushToFile:
    FileDelete, OutputData.txt
    Loop, % wProcess.MaxIndex()
@@ -94,5 +98,12 @@ RemoveTrayTip:
    SetTimer, RemoveTrayTip, Off
    TrayTip
 Return
+
+SuspendMe:
+   Suspend, Toggle
+Return
+
+CloseMe:
+   ExitApp
 
 #Include Data\Includes\FileGetVersionInfo.ahk
