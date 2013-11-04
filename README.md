@@ -1,4 +1,4 @@
-# Time Tracker v0.0
+# Time Tracker v0.1
 
 ![Tracker](/Data/Time.png)
 
@@ -45,8 +45,6 @@ Steal Ideas From:
 
 ## <a name="todo"></a>Todo
 
-* Go off the record: Pause tracking.
-
 * Presistent Timer
   * 1 second (Variable?)
 
@@ -57,10 +55,18 @@ Steal Ideas From:
 ## <a name="later"></a>More Features To Add Later
 
 * Output XML
+* Go off the record: Pause tracking.
 
 ## <a name="changelog"></a>Changelog
 
+04/11/2013 :
+* Testing Basic Functionality:
+  * Window Titles/Process Names/Paths
+  * Every 15 Minutes Output
+
+03/11/2013 :
 * Created a Google Chrome Extension to get URLs from the chrome's title bar.
+
 * Readme Done.
 
 <!-- Reset Chrome Time Tracker: 01/11/2013-21:32 -->
