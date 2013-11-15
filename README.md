@@ -1,31 +1,40 @@
-# Time Tracker v0.1
+# Time Tracker v0.2
 
-![Tracker](/Data/Time.png)
+![Tracker](/Data/TimeSmall.png)
 
-An application to track your activities. Gain an insight of what you've been doing with your time.
+An application to track your activities.
+
+[This](http://blog.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/) amazing post from [this](http://en.wikipedia.org/wiki/Stephen_wolfram) awesome man is the driving force of this project.
 
 ## Table of Contents
 
-<!-- * [Usage Scenario](#usage) -->
-* [Stuff To Do](#todo)
-* [More Features To Add Later](#later)
+* [The Plan](#plan)
+* [To Add Later](#later)
 * [Changelog](#changelog)
 
-## <a name="usage"></a>Dev Notes
+## <a name="plan"></a>The Plan
 
-The 'application' will actually consist of two parts: AHK + JS.
+The 'application' will consist of two parts: AHK + JS.
 
-The core tracking part will be done via an AHK script that'll run silently in the background and will monitor the "Current Active Window" - it'll keep track of what's active right now and how much time has been spent on this particular application.
+The tracking part will be done via an AHK script that'll run silently in the background. It'll monitor things like the current active window, keystrokes, mouse movements and idle (AFK) time.
 
-While the Graphing and Data Analysis will be done using Javascript in the form of a webapp.
+While the Graphing and Data Analysis will be done in the form of a webapp using Bootstrap/Javascript and other web-fu stuff.
 
-The data will be dumped to an output file, periodically (say an hour). The output data can then be used to plot graphs (oh! those sexy graphs).
+Currently I'm more focussed on the AHK part.
+
+There is [sister project](http://github.com/dufferzafar/internet-usage) going on though which is inclined towards the web part as the data is already present in that case and it just has to be visualised.
+
+**Tracking - AHK**
+
+The core part of the script will monitor the "Current Active Window" - it'll keep track of what's active right now and how much time has been spent on this particular application.
+
+The data will be dumped to an output file, periodically (say an hour). 
 
 The applications can be categorised, so you can know the time you've spent on "Development", "Entertainment", "Web Browsing".
 
 You can also create Whitelists - only some applications will be tracked as such and the rest will be added to category "Others". Or Blacklists - applications in this list will be ignored and added to "Others"
 
-The records will be saved on a per day basis, but they can later be converted to per month/year. (In JS)
+The records will be saved on a per day basis, but they can later be converted to per month/year.
 
 We'll have data like:
   * Most Used Application
@@ -40,24 +49,47 @@ Algorithm:
   * On End: Dump session end time
 
 Steal Ideas From:
+  * [Wakatime](www.wakati.me)
   * [Manic Time](www.manictime.com)
   * [Rescue Time](www.rescuetime.com)
 
-## <a name="todo"></a>Todo
+## <a name="todo"></a>Todo ASAP
+
+* Chrome Extension
+  * Remove Crap
+
+* Sessions ?
+  * in a day
+  * start - end
+  * what if the app is closed. re-run.
+
+* Output
+  * A file per day
+  * XML
 
 * Presistent Timer
   * 1 second (Variable?)
 
-* Active Window
-  * Title (Tabs of an app)
-  * Class
+## <a name="later"></a>To Add Later
 
-## <a name="later"></a>More Features To Add Later
+* Google Chrome
+  * Most visited websites
 
-* Output XML
+* Sublime Text
+  * Time spent per file/project
+
+* Windows Explorer
+  * Time spent per folder
+  * Generate favorite folders from the pattern
+
+* Keystroke Monitor
+
 * Go off the record: Pause tracking.
 
 ## <a name="changelog"></a>Changelog
+
+15/11/2013 :
+* Modified the Readme.
 
 04/11/2013 :
 * Testing Basic Functionality:
