@@ -55,9 +55,6 @@ Steal Ideas From:
 
 ## <a name="todo"></a>Todo ASAP
 
-* Chrome Extension
-  * Remove Crap
-
 * Sessions ?
   * in a day
   * start - end
@@ -89,7 +86,8 @@ Steal Ideas From:
 ## <a name="changelog"></a>Changelog
 
 15/11/2013 :
-* Modified the Readme.
+* Updated: Chrome extension to use host instead of href.
+* Redid the Readme.
 
 04/11/2013 :
 * Testing Basic Functionality:
