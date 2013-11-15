@@ -86,6 +86,7 @@ Steal Ideas From:
 ## <a name="changelog"></a>Changelog
 
 15/11/2013 :
+* Output Schema. AHK functions using COM/MSXML.
 * Updated: Chrome extension to use host instead of href.
 * Redid the Readme.
 
