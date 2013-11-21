@@ -101,3 +101,7 @@ Steal Ideas From:
 * Readme Done.
 
 <!-- Reset Chrome Time Tracker: 01/11/2013-21:32 -->
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dufferzafar/time-tracker/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
