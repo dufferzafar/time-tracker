@@ -1,0 +1,22 @@
+F:\[Softwares]\Essentials\Sublime-Text-3\sublime_text.exe 		 4611
+C:\Users\dufferzafar\AppData\Local\Google\Chrome\Application\chrome.exe 		 5043
+F:\[Softwares]\[PowerPack]\mIRC\mirc.exe 		 2601
+ 		 75
+C:\Program Files (x86)\Windows Media Player\wmplayer.exe 		 60
+C:\Program Files (x86)\Last.fm\Last.fm Scrobbler.exe 		 162
+C:\Program Files\WinRAR\WinRAR.exe 		 6
+C:\Users\dufferzafar\AppData\Local\Facebook\Messenger\2.1.4814.0\FacebookMessenger.exe 		 108
+C:\Windows\explorer.exe 		 606
+C:\Windows\SysWOW64\NOTEPAD.EXE 		 12
+C:\Program Files\NetWorx\networx.exe 		 18
+C:\Windows\System32\SndVol.exe 		 30
+C:\Program Files\AutoHotkey\AutoHotkey.exe 		 363
+F:\Launchy\Launchy.exe 		 42
+C:\Windows\hh.exe 		 423
+C:\Program Files (x86)\Everything\Everything.exe 		 75
+C:\Windows\System32\dllhost.exe 		 21
+C:\Windows\System32\notepad.exe 		 3
+C:\Program Files\VideoLAN\VLC\vlc.exe 		 3
+C:\Program Files (x86)\7-Zip\7zFM.exe 		 6
+C:\Program Files (x86)\Internet Download Manager\IDMan.exe 		 3
+C:\Users\dufferzafar\AppData\Local\Apps\2.0\DT2Q41VH.JPY\EZ99P3PX.VA8\gith..tion_317444273a93ac29_0001.0002_878eda3344b3e794\GitHub.exe 		 75

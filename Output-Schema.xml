@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tracker-data date="16/11/2013">
+
+	<global>
+		<application>
+			<path>F:\[Softwares]\Essentials\Sublime-Text-3\sublime_text.exe</path>
+			<seconds>4611</seconds>
+		</application>
+
+		<application>
+			<path>C:\Users\dufferzafar\AppData\Local\Apps\2.0\DT2Q41VH.JPY\EZ99P3PX.VA8\gith..tion_317444273a93ac29_0001.0002_878eda3344b3e794\GitHub.exe</path>
+			<seconds>75</seconds>
+		</application>
+	</global>
+
+	<chrome>
+		<url>
+			<path>www.google.com</path>
+			<seconds>891</seconds>
+		</url>
+	</chrome>
+
+	<sublime>
+		<item>
+			<path>D:\I, Coder\@ Github\time-tracker\Output-Schema.xml</path>
+			<seconds>765</seconds>
+		</item>
+	</sublime>
+
+</tracker-data>

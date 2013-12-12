@@ -4,6 +4,10 @@
 
 An application to track your activities.
 
+UPDATE: I don't want to say this, but this REPO is now an abandonware.
+        I figured out that writng code is not always the solution.
+So I now use [Manic Time](www.manictime.com) for all the tracking, it has much more than I actually need but that's the way it is...
+
 [This](http://blog.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/) amazing post from [this](http://en.wikipedia.org/wiki/Stephen_wolfram) awesome man is the driving force of this project.
 
 ## Table of Contents
@@ -55,6 +59,10 @@ Steal Ideas From:
 
 ## <a name="todo"></a>Todo ASAP
 
+* Chrome Extension
+  * append www if it isn't already there..
+  * indexof("www.")
+
 * Sessions ?
   * in a day
   * start - end
@@ -84,6 +92,9 @@ Steal Ideas From:
 * Go off the record: Pause tracking.
 
 ## <a name="changelog"></a>Changelog
+
+13/12/2013 : 
+* Abandon Ship!!
 
 15/11/2013 :
 * Output Schema. AHK functions using COM/MSXML.
