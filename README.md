@@ -2,11 +2,15 @@
 
 ![Tracker](/Data/TimeSmall.png)
 
-An application to track your activities.
+An application to track time of your activities.
 
-UPDATE: I don't want to say this, but this REPO is now an abandonware.
-        I figured out that writng code is not always the solution.
-So I now use [Manic Time](www.manictime.com) for all the tracking, it has much more than I actually need but that's the way it is...
+---------
+
+*Note*: I don't want to say this, but this repo has now been abandoned.
+
+I figured out that writng code is not always the solution. So I now use [Manic Time](www.manictime.com) for all the tracking, it has much more than I actually need but that's the way it is...
+
+---------
 
 [This](http://blog.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/) amazing post from [this](http://en.wikipedia.org/wiki/Stephen_wolfram) awesome man is the driving force of this project.
 
