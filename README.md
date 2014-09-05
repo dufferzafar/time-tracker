@@ -1,14 +1,10 @@
 # Time Tracker v0.2
 
+*Status: Not maintained anymore. I figured out that writng code is not always the solution. So I now use [Manic Time](www.manictime.com) for all the tracking.*
+
 ![Tracker](/Data/TimeSmall.png)
 
 An application to track time of your activities.
-
----------
-
-*Note*: I don't want to say this, but this repo has now been abandoned.
-
-I figured out that writng code is not always the solution. So I now use [Manic Time](www.manictime.com) for all the tracking, it has much more than I actually need but that's the way it is...
 
 ---------
 
